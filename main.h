@@ -16,8 +16,8 @@ void exec_wa(char *toks, char *const *argv, char **env);
 char *get_line(char **argv);
 int toknum(char *command);
 void _free(char **arr);
-char *_getenv(const char *name);
-void print_environment(void);
+char *_getenv(char **env, char *name);
+void print_environment(char **env);
 int get_path(char **tokens, char **env);
 
 #endif
