@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * exe_wa - execute the command.
+ * exec_wa - execute the command.
  * @path: file path.
  * @argv: argument valeu.
  * @env: system environment.
