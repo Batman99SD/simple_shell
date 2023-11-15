@@ -19,5 +19,5 @@ void _free(char **arr);
 char *_getenv(char **env, char *name);
 void print_environment(char **env);
 int get_path(char **tokens, char **env);
-
+int builtin_command(char **tokens, char **env);
 #endif
