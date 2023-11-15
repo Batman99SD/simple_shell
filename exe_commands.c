@@ -10,6 +10,7 @@ void exec_wa(char *path, char *const *argv, char **env)
 {
 	pid_t pid;
 	int status;
+
 	if (path == NULL)
 	{
 		return;
@@ -34,5 +35,5 @@ void exec_wa(char *path, char *const *argv, char **env)
 		{
 			wait(&status);
 		}
-	}    
+	}
 }
