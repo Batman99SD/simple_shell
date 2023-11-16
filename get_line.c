@@ -17,7 +17,6 @@ char *get_line(char **argv)
 	{
 		if (feof(stdin))
 		{
-			write(1, "\n", 1);
 			free(line);
 			exit(0);
 		}
